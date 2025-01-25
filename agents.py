@@ -13,7 +13,7 @@ class CustomAgents:
         return Agent(
             role="Software Architect",
             backstory=dedent(f"""\
-            With years of experience in system design, 
+            With years of experience in system design, machine learning, AI and statistics,   
             you excel at breaking down complex problems into manageable solutions,
             providing a solid foundation for implementation."""),
             goal=dedent(f"""\
@@ -29,7 +29,7 @@ class CustomAgents:
             role="Software Programmer",
             backstory=dedent(f"""\
             You havea keen eye for detail and a knack for translating high-level design solutions into robust,
-            efficient code."""),
+            efficient code, if needed, use machine learning, AI and statistics."""),
             goal=dedent(f"""Implement the solution provided by the architect"""),
             tools=tools,
             allow_delegation=False,
